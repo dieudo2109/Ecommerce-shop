@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 import Register from '../Register/Register';
 import { useSelector } from 'react-redux';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Button, Modal, ModalBody, ModalFooter } from 'reactstrap';
 export default function Navbar() {
   const [modal, setModal] = useState(false);
   const toggle = () => setModal(!modal);

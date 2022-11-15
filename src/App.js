@@ -29,8 +29,7 @@ function App() {
         return;
       };
      
-      const token =await user.getIdToken()
-      console.log(token)
+      
     });
     return () => unregisterAuthObserver(); 
   }, []);

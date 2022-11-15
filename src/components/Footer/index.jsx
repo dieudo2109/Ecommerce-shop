@@ -13,29 +13,29 @@ export default function Footer() {
                     </div>
 
                     <div>
-                        <a href="" className="me-4 link-secondary btn btn-outline-primary btn-floating m-1">
+                        <a to="#" className="me-4 link-secondary btn btn-outline-primary btn-floating m-1">
                             <i className="fa fa-facebook-f"></i>
                         </a>
-                        <a href="" className="me-4 link-secondary btn btn-outline-secondary btn-floating m-1">
+                        <a to="#" className="me-4 link-secondary btn btn-outline-secondary btn-floating m-1">
                             <i className="fa fa-twitter"></i>
                         </a>
-                        <a href="" className="me-4 link-secondary btn btn-outline-danger btn-floating m-1">
+                        <a to="#" className="me-4 link-secondary btn btn-outline-danger btn-floating m-1">
                             <i className="fa fa-google"></i>
                         </a>
-                        <a href="" className="me-4 link-secondary btn btn-outline-warning btn-floating m-1">
+                        <a to="#" className="me-4 link-secondary btn btn-outline-warning btn-floating m-1">
                             <i className="fa fa-instagram"></i>
                         </a>
-                        <a href="" className="me-4 link-secondary btn btn-outline-info btn-floating m-1">
+                        <a to="#" className="me-4 link-secondary btn btn-outline-info btn-floating m-1">
                             <i className="fa fa-linkedin"></i>
                         </a>
-                        <a href="" className="me-4 link-secondary btn-outline-dark btn-floating m-1 btn">
+                        <a to="#" className="me-4 link-secondary btn-outline-dark btn-floating m-1 btn">
                             <i className="fa fa-github"></i>
                         </a>
                     </div>
 
                 </section>
 
-                <section className="">
+                <section >
                     <div className="container text-center text-md-start mt-5">
 
                         <div className="row mt-3">
@@ -57,16 +57,16 @@ export default function Footer() {
                                     Products
                                 </h6>
                                 <p>
-                                    <a href="#!" className="text-reset">Men's Clothing</a>
+                                    <a to="#!" className="text-reset">Men's Clothing</a>
                                 </p>
                                 <p>
-                                    <a href="#!" className="text-reset">Woment's Clothing</a>
+                                    <a to="#!" className="text-reset">Woment's Clothing</a>
                                 </p>
                                 <p>
-                                    <a href="#!" className="text-reset">Jewelery</a>
+                                    <a to="#!" className="text-reset">Jewelery</a>
                                 </p>
                                 <p>
-                                    <a href="#!" className="text-reset">Electronics</a>
+                                    <a to="#!" className="text-reset">Electronics</a>
                                 </p>
                             </div>
 
@@ -76,16 +76,16 @@ export default function Footer() {
                                     Useful links
                                 </h6>
                                 <p>
-                                    <a href="#!" className="text-reset">Pricing</a>
+                                    <a to="#!" className="text-reset">Pricing</a>
                                 </p>
                                 <p>
-                                    <a href="#!" className="text-reset">Settings</a>
+                                    <a to="#!" className="text-reset">Settings</a>
                                 </p>
                                 <p>
-                                    <a href="#!" className="text-reset">Orders</a>
+                                    <a to="#!" className="text-reset">Orders</a>
                                 </p>
                                 <p>
-                                    <a href="#!" className="text-reset">Help</a>
+                                    <a to="#!" className="text-reset">Help</a>
                                 </p>
                             </div>
 
@@ -110,7 +110,7 @@ export default function Footer() {
 
                 <div className="text-center p-4" >
                     © 2022 Copyright:
-                    <a className="text-reset fw-bold" href="https://mdbootstrap.com/"> Shopnow.com</a>
+                    <a className="text-reset fw-bold" to="https://mdbootstrap.com/"> Shopnow.com</a>
                 </div>
 
             </footer>

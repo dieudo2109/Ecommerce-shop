@@ -6,7 +6,7 @@ export default function Checkout() {
     const itemList = (item) => {
         total = total + item.price
         return (
-            <li className="list-group-item d-flex justify-content-between lh-condensed">
+            <li className="list-group-item d-flex justify-content-between lh-condensed" key={item.id}>
                 <div>
                     <h6 className="my-0">{item.title}</h6>
 
